@@ -32,6 +32,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildFingerprint=Redmi/miatoll_global/miatoll:12/RKQ1.211019.001/V14.0.3.0.SJZMIXM:user/release-keys
 
 # AxionOS Configuration
+WITH_GMS := true
+TARGET_CORE_GMS := true
 TARGET_DISABLE_EPPE := true
 TARGET_ENABLE_BLUR := true
 TARGET_INCLUDE_AXFX := true
