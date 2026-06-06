@@ -287,7 +287,8 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel \
     hardware/lineage/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client \
-    hardware/xiaomi
+    hardware/xiaomi \
+    vendor/xiaomi/miuicamera-miatoll
 
 # Telephony
 PRODUCT_PACKAGES += \
