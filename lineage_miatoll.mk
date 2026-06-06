@@ -30,3 +30,15 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="miatoll_global-user 12 SKQ1.211019.001 V14.0.3.0.SJZMIXM release-keys" \
     BuildFingerprint=Redmi/miatoll_global/miatoll:12/RKQ1.211019.001/V14.0.3.0.SJZMIXM:user/release-keys
+
+# AxionOS Configuration
+TARGET_DISABLE_EPPE := true
+TARGET_ENABLE_BLUR := true
+TARGET_INCLUDE_AXFX := true
+
+# Device Properties for About Phone Info
+AXION_MAINTAINER := octasoul
+AXION_PROCESSOR := Snapdragon_720G
+AXION_CAMERA_REAR_INFO := 48,8,5,2
+AXION_CAMERA_FRONT_INFO := 16
+
